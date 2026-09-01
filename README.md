@@ -37,10 +37,13 @@ This deliverable contains the core recommendation engine backend for a restauran
  pip install -r requirements.txt
 
 4. Configure Environment Variables
+
  Create a .env file in project root
 
-5. Run the Application
+6. Run the Application
+
  python recommendation_engine.py
 
 //Run the 10-case evaluation test suite
+
  python test_engine.py
