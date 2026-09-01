@@ -25,3 +25,24 @@ This deliverable contains the core recommendation engine backend for a restauran
 
 ---
 
+Setup & Installation
+
+1. Clone the Repository
+
+2. Create and Activate Virtual Environment  
+ python -m venv .venv
+ .venv\Scripts\activate
+
+3. Install Dependencies  
+
+ pip install -r requirements.txt
+
+4. Configure Environment Variables
+ Create a .env file in project root
+
+5. Run the Application
+
+ python recommendation_engine.py
+
+# Run the 10-case evaluation test suite
+ python test_engine.py
