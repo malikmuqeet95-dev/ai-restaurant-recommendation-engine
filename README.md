@@ -1,4 +1,4 @@
-AI Product Recommendation Engine for a Restaurant Chain
+# AI Product Recommendation Engine for a Restaurant Chain
 
 Component: Core AI Recommendation Subsystem, Dynamic Prompting & Structured Schema Parsing  
 Primary Stack: Python 3.10+, Groq API (OpenAI Compatible SDK), Pydantic v2, Python-Dotenv  
@@ -25,7 +25,7 @@ This deliverable contains the core recommendation engine backend for a restauran
 
 ---
 
-Setup & Installation
+**Setup & Installation**
 
 1. Clone the Repository
 
@@ -34,15 +34,13 @@ Setup & Installation
  .venv\Scripts\activate
 
 3. Install Dependencies  
-
  pip install -r requirements.txt
 
 4. Configure Environment Variables
  Create a .env file in project root
 
 5. Run the Application
-
  python recommendation_engine.py
 
-# Run the 10-case evaluation test suite
+//Run the 10-case evaluation test suite
  python test_engine.py
